@@ -16,6 +16,10 @@
   <property name="windowTitle">
    <string>Principal</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="recursos.qrc">
+    <normaloff>:/img/icon-App.png</normaloff>:/img/icon-App.png</iconset>
+  </property>
   <widget class="QWidget" name="centralwidget"/>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -57,6 +61,10 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionNuevo">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/img/icon-New.png</normaloff>:/img/icon-New.png</iconset>
+   </property>
    <property name="text">
     <string>Nuevo</string>
    </property>
@@ -65,6 +73,10 @@
    </property>
   </action>
   <action name="actionGuardar">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/img/icon-Guardar.png</normaloff>:/img/icon-Guardar.png</iconset>
+   </property>
    <property name="text">
     <string>Guardar</string>
    </property>
@@ -73,6 +85,10 @@
    </property>
   </action>
   <action name="actionSalir">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/img/icon-Exit.png</normaloff>:/img/icon-Exit.png</iconset>
+   </property>
    <property name="text">
     <string>Salir</string>
    </property>
@@ -81,6 +97,10 @@
    </property>
   </action>
   <action name="actionColor">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/img/icon-Color.png</normaloff>:/img/icon-Color.png</iconset>
+   </property>
    <property name="text">
     <string>Color</string>
    </property>
@@ -141,6 +161,8 @@
    </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="recursos.qrc"/>
+ </resources>
  <connections/>
 </ui>

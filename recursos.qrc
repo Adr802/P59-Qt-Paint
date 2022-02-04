@@ -1,5 +1,10 @@
 <RCC>
     <qresource prefix="/">
         <file>MiPaint_en.qm</file>
+        <file>img/icon-Exit.png</file>
+        <file>img/icon-Guardar.png</file>
+        <file>img/icon-New.png</file>
+        <file>img/icon-App.png</file>
+        <file>img/icon-Color.png</file>
     </qresource>
 </RCC>

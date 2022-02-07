@@ -52,5 +52,7 @@ private:
     QColor mColor;          // Define el color del pincel
     int mNumLineas;         // Cuenta el número de líneas
 
+    void dibujar();
+
 };
 #endif // PRINCIPAL_H

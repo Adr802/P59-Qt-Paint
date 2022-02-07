@@ -109,6 +109,10 @@
    </property>
   </action>
   <action name="actionAncho">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/img/icon-Ancho.png</normaloff>:/img/icon-Ancho.png</iconset>
+   </property>
    <property name="text">
     <string>Ancho</string>
    </property>
@@ -122,6 +126,10 @@
    </property>
    <property name="checked">
     <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/img/icon-Linea.png</normaloff>:/img/icon-Linea.png</iconset>
    </property>
    <property name="text">
     <string>Lineas</string>
@@ -137,6 +145,10 @@
    <property name="checked">
     <bool>true</bool>
    </property>
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/img/icon-Libre.png</normaloff>:/img/icon-Libre.png</iconset>
+   </property>
    <property name="text">
     <string>Libre</string>
    </property>
@@ -148,13 +160,21 @@
    <property name="checkable">
     <bool>true</bool>
    </property>
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/img/icon-Rectangulo.png</normaloff>:/img/icon-Rectangulo.png</iconset>
+   </property>
    <property name="text">
-    <string>Rectánculos</string>
+    <string>Rectángulos</string>
    </property>
   </action>
   <action name="actionCircunferencias">
    <property name="checkable">
     <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/img/icon-Circunferencia.png</normaloff>:/img/icon-Circunferencia.png</iconset>
    </property>
    <property name="text">
     <string>Circunferencias</string>

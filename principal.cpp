@@ -97,34 +97,7 @@ void Principal::mouseReleaseEvent(QMouseEvent *event)
     mPuedeDibujar = false;
     mFinal = event->pos();
 
-    if(ui->actionLineas->isChecked()){
-        // Crear un pincel y establecer atributos
-        QPen pincel;
-        pincel.setColor(mColor);
-        pincel.setWidth(mAncho);
-        // Dibujar una linea
-        mPainter->setPen(pincel);
-        mPainter->drawLine(mInicial.x(),mInicial.y(),mFinal.x(),mFinal.y());
-    }
-    if(ui->actionCircunferencias->isChecked()){
-        // Crear un pincel y establecer atributos
-        QPen pincel;
-        pincel.setColor(mColor);
-        pincel.setWidth(mAncho);
-        // Dibujar una linea
-        mPainter->setPen(pincel);
-        mPainter->drawEllipse(mInicial.x(),mInicial.y(),mFinal.x() - mInicial.x(), mFinal.y() - mInicial.y());
-    }
-    if(ui->actionRect_nculos->isChecked()){
-        // Crear un pincel y establecer atributos
-        QPen pincel;
-        pincel.setColor(mColor);
-        pincel.setWidth(mAncho);
-        // Dibujar una linea
-        mPainter->setPen(pincel);
-        mPainter->drawRect(mInicial.x(),mInicial.y(),mFinal.x() - mInicial.x(), mFinal.y() - mInicial.y());
-    }
-
+    dibujar();
 
     // Actualizar la interfaz
     update();
@@ -210,5 +183,37 @@ void Principal::on_actionCircunferencias_triggered()
     ui->actionLineas->setChecked(false);
     ui->actionRect_nculos->setChecked(false);
     ui->actionLibre->setChecked(false);
+}
+
+void Principal::dibujar()
+{
+
+    if(ui->actionLineas->isChecked()){
+        // Crear un pincel y establecer atributos
+        QPen pincel;
+        pincel.setColor(mColor);
+        pincel.setWidth(mAncho);
+        // Dibujar una linea
+        mPainter->setPen(pincel);
+        mPainter->drawLine(mInicial.x(),mInicial.y(),mFinal.x(),mFinal.y());
+    }
+    if(ui->actionCircunferencias->isChecked()){
+        // Crear un pincel y establecer atributos
+        QPen pincel;
+        pincel.setColor(mColor);
+        pincel.setWidth(mAncho);
+        // Dibujar una linea
+        mPainter->setPen(pincel);
+        mPainter->drawEllipse(mInicial.x(),mInicial.y(),mFinal.x() - mInicial.x(), mFinal.y() - mInicial.y());
+    }
+    if(ui->actionRect_nculos->isChecked()){
+        // Crear un pincel y establecer atributos
+        QPen pincel;
+        pincel.setColor(mColor);
+        pincel.setWidth(mAncho);
+        // Dibujar una linea
+        mPainter->setPen(pincel);
+        mPainter->drawRect(mInicial.x(),mInicial.y(),mFinal.x() - mInicial.x(), mFinal.y() - mInicial.y());
+    }
 }
 

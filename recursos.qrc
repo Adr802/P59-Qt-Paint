@@ -6,5 +6,10 @@
         <file>img/icon-New.png</file>
         <file>img/icon-App.png</file>
         <file>img/icon-Color.png</file>
+        <file>img/icon-Ancho.png</file>
+        <file>img/icon-Circunferencia.png</file>
+        <file>img/icon-Libre.png</file>
+        <file>img/icon-Linea.png</file>
+        <file>img/icon-Rectangulo.png</file>
     </qresource>
 </RCC>

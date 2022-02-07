@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="en_US">
+<TS version="2.1" language="fr_FR">
 <context>
     <name>Principal</name>
     <message>
@@ -11,7 +11,7 @@
     <message>
         <location filename="principal.ui" line="35"/>
         <source>Archivo</source>
-        <translation>Archive</translation>
+        <translation>Archiver</translation>
     </message>
     <message>
         <location filename="principal.ui" line="44"/>
@@ -21,12 +21,12 @@
     <message>
         <location filename="principal.ui" line="51"/>
         <source>Forma</source>
-        <translation>Shape</translation>
+        <translation>Forme</translation>
     </message>
     <message>
         <location filename="principal.ui" line="69"/>
         <source>Nuevo</source>
-        <translation>New</translation>
+        <translation>Nouveau</translation>
     </message>
     <message>
         <location filename="principal.ui" line="72"/>
@@ -36,7 +36,7 @@
     <message>
         <location filename="principal.ui" line="81"/>
         <source>Guardar</source>
-        <translation>Save</translation>
+        <translation>Sauvegarder</translation>
     </message>
     <message>
         <location filename="principal.ui" line="84"/>
@@ -46,7 +46,7 @@
     <message>
         <location filename="principal.ui" line="93"/>
         <source>Salir</source>
-        <translation>Close</translation>
+        <translation>Sortir</translation>
     </message>
     <message>
         <location filename="principal.ui" line="96"/>
@@ -56,7 +56,7 @@
     <message>
         <location filename="principal.ui" line="105"/>
         <source>Color</source>
-        <translation>Color</translation>
+        <translation>Couleur</translation>
     </message>
     <message>
         <location filename="principal.ui" line="108"/>
@@ -66,7 +66,7 @@
     <message>
         <location filename="principal.ui" line="113"/>
         <source>Ancho</source>
-        <translation>Width</translation>
+        <translation>Large</translation>
     </message>
     <message>
         <location filename="principal.ui" line="116"/>
@@ -76,12 +76,12 @@
     <message>
         <location filename="principal.ui" line="127"/>
         <source>Lineas</source>
-        <translation>Lines</translation>
+        <translation>Lignes</translation>
     </message>
     <message>
         <location filename="principal.ui" line="141"/>
         <source>Libre</source>
-        <translation>Free</translation>
+        <translation>Libre</translation>
     </message>
     <message>
         <location filename="principal.ui" line="152"/>
@@ -91,34 +91,34 @@
     <message>
         <location filename="principal.ui" line="160"/>
         <source>Circunferencias</source>
-        <translation>Circumferences</translation>
+        <translation>Circonférences</translation>
     </message>
     <message>
         <location filename="principal.cpp" line="79"/>
         <source>Número de líneas: </source>
-        <translation>Number of lines: </translation>
+        <translation>Nombre de lignes: </translation>
     </message>
     <message>
         <location filename="principal.cpp" line="140"/>
         <source>Ancho del pincel</source>
-        <translation>Brush width</translation>
+        <translation>Largeur du pinceau</translation>
     </message>
     <message>
         <location filename="principal.cpp" line="141"/>
         <source>Ingrese el ancho del pincel de dibujo</source>
-        <translation>Enter the width of the brush</translation>
+        <translation>Entrez la largeur du pinceau de dessin</translation>
     </message>
     <message>
         <location filename="principal.cpp" line="155"/>
         <source>Color del pincel</source>
-        <translation>Color of brush</translation>
+        <translation>Couleur du pinceau</translation>
     </message>
     <message>
         <location filename="principal.cpp" line="168"/>
         <location filename="principal.cpp" line="174"/>
         <location filename="principal.cpp" line="178"/>
         <source>Guardar imagen</source>
-        <translation>Save image</translation>
+        <translation>Sauvegarder image</translation>
     </message>
     <message>
         <location filename="principal.cpp" line="170"/>
@@ -128,12 +128,12 @@
     <message>
         <location filename="principal.cpp" line="175"/>
         <source>Archivo almacenado en: </source>
-        <translation>File stored in: </translation>
+        <translation>Fichier stocké dans: </translation>
     </message>
     <message>
         <location filename="principal.cpp" line="179"/>
         <source>No se pudo almacenar la imagen.</source>
-        <translation>Couldn&apos;t store image.</translation>
+        <translation>Impossible de stocker l&apos;image.</translation>
     </message>
 </context>
 </TS>

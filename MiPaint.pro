@@ -26,7 +26,9 @@ FORMS += \
     principal.ui
 
 TRANSLATIONS += \
-    MiPaint_en.ts
+    MiPaint_en.ts \
+    MiPaint_fr.ts
+
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
